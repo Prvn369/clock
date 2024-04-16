@@ -19,9 +19,9 @@ setInterval(() => {
 
     if (m == 0 || m == 1 || m == 2 || m == 3 || m == 4 || m == 5 || m == 6 || m == 7 || m == 8 || m == 9) {
         time.children[2].innerText = `0${m}`
+    } else {
+        time.children[2].innerText = m;
     }
-    time.children[2].innerText = m;
-    
     //  For Seconds 01 Format 
 
     if (s == 0 || s == 1 || s == 2 || s == 3 || s == 4 || s == 5 || s == 6 || s == 7 || s == 8 || s == 9) {
